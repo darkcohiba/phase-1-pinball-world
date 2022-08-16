@@ -23,12 +23,8 @@ function navBar(gameData){
         navItem.addEventListener('click', (e) => {
             addHiScore(game)
         })
-
     })
-
 }
-
-
 //challenge #2 add hi score function
 let clickedGame;
 function addHiScore(gameData){
